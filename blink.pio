@@ -1,0 +1,51 @@
+.program capture_propre
+
+    pull block
+    mov x, osr   
+
+.wrap_target
+
+start_frame:
+    pull block
+    mov x, osr
+    wait 1 gpio 4
+
+start_line:
+    pull block
+    mov x, osr
+
+    wait 1 gpio 3
+    wait 0 gpio 3
+    in pins, 2
+    jmp x-- loop_pixel
+
+loop_pixel:
+    wait 0 gpio 0
+    in pins, 2
+    wait 1 gpio 0
+    jmp x-- loop_pixel
+
+
+    jmp start_line
+
+.wrap
+
+% c-sdk {
+static inline void setup_entrees_init(PIO pio, uint sm, uint offset) {
+    pio_sm_config c = capture_propre_program_get_default_config(offset);
+
+    sm_config_set_in_pins(&c, 1);
+
+    for(int i = 0; i <= 4; i++) {
+        // Initialise le GPIO pour le contrôle par le PIO
+        pio_gpio_init(pio, i);
+        // Fixe la direction en entrée (false = input)
+        pio_sm_set_consecutive_pindirs(pio, sm, i, 1, false);
+    }
+
+    sm_config_set_in_shift(&c, true, true, 32);
+
+    pio_sm_init(pio, sm, offset, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+%}
