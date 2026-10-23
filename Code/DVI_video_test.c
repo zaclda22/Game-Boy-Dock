@@ -23,7 +23,6 @@ struct dvi_inst dvi0;
 
 static uint16_t line_buffer[640];
 
-// Framebuffer : 640 * 480 / 4 pixels par octet = 76800 octet
 
 volatile int8_t frame[144][160];
 
@@ -45,17 +44,17 @@ bool pal_button = false;
 static uint scanline = 0;
 
 static const struct dvi_serialiser_cfg dvi_cfg = {
-    .pio = pio1,               // On utilise pio0 puisqu'il n'y a rien d'autre
+    .pio = pio1,              
     .sm_tmds = {0, 1, 2},
     .pins_tmds = {12, 18, 16}, // D0, D1, D2
-    .pins_clk = 14,            // Clock mesurée à 25.2MHz
+    .pins_clk = 14,            
     .invert_diffpairs = false,
     .prog_offs = 0
 };
 
 
 
-// --- BOUCLE DE RENDU (Core 1) --
+// --- RENDER LOOP (Core 1) --
 void __not_in_flash("core1_main") core1_main() {
     dvi_register_irqs_this_core(&dvi0, DMA_IRQ_0); 
     dvi_start(&dvi0); 
@@ -65,8 +64,7 @@ void __not_in_flash("core1_main") core1_main() {
 }
 
 void core1_scanline_callback() {
-    // Cette fonction est appelée à chaque début de ligne active. On doit fournir
-    // un buffer TMDS pour la ligne suivante avant la fin de la ligne courante.
+
     if(gpio_get(9)&&(pal_button==false)){
             pal_button=true;
             pal_offset = (pal_offset + 1) % NB_PAL;
@@ -89,15 +87,15 @@ void core1_scanline_callback() {
     }
 
     const uint32_t *tmds_buf= (uint32_t *)line_buffer;
-        // Ligne prête, on la passe à la file des lignes valides
+        
     queue_try_add_u32(&dvi0.q_colour_valid, &tmds_buf);
     while (queue_try_remove_u32(&dvi0.q_colour_free, &tmds_buf));
     scanline = (scanline + 1) % FRAME_HEIGHT;
 }
 
-// --- LOGIQUE APPLICATIVE (Core 0) ---
+// --- DECODE LOGIC (Core 0) ---
 int main() {
-    // 1. Overclock pour atteindre la fréquence DVI (252 MHz pour 480p)
+    // Overclock
     vreg_set_voltage(VREG_VSEL);
     sleep_ms(10);
     set_sys_clock_khz(DVI_TIMING.bit_clk_khz, true);
@@ -125,7 +123,7 @@ int main() {
 
     pio_sm_put_blocking(pio, sm, 159);
 
-    // 2. Configuration DVI
+    // Configuration DVI
     dvi0.timing = &DVI_TIMING;
     dvi0.ser_cfg = dvi_cfg;
     dvi0.scanline_callback = core1_scanline_callback;
@@ -140,7 +138,7 @@ int main() {
     multicore_launch_core1(core1_main);
     //sleep_ms(200);
 
-    // 5. Boucle principale (libre pour votre code)
+    // Main Loop
     while (1) {
         if (!pio_sm_is_rx_fifo_empty(pio, sm)) {
             data = pio_sm_get_blocking(pio, sm);
