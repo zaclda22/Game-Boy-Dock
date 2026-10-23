@@ -16,8 +16,15 @@ I use a raspberry pi pico for this project and modified snes controller.
 1. Look at the schematic
 2. Build the circuit as you wish
 3. Test it !!
+
+# How to run
+1. Download the latest `.uf2` in the [Release](https://github.com/zaclda22/Game-Boy-Dock/releases) section
+2. Copy it
+3. Hold down the BOOTSEL button while plugging the Raspberry Pi Pico into your computer
+4. Paste the file in the drive named `RPI-RP2` or another device name like that
+5. The Raspberry Pi Pico device while start the program
    
-# How to compile and run for pico
+# How to compile
 # Windows :
 1. Download [Visual Studio Code](https://code.visualstudio.com/)
 2. Install the Raspberry Pi Pico Project extension
