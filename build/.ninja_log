@@ -1,0 +1,142 @@
+# ninja log v6
+4019	4646	7940894034089075	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj	d4c282c64a84a2be
+1726	2782	7939136536315688	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	b10a4d75e764b928
+5072	7586	7940894044892500	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.obj	2f0f8458f57ddd05
+57	2219	7940896341354278	build.ninja	f7eaaa51bca04673
+1547	3161	7940894009665801	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj	b3f2794603747913
+83	1722	7939136509606001	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	fda4cb80d1518a90
+1726	2782	7939136536315688	pico-sdk/src/rp2040/boot_stage2/bs2_default.elf	b10a4d75e764b928
+2783	3034	7939136538739953	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	2f8e9cae9615c549
+99	856	7940893994899897	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.obj	ccb0b4ca4675765b
+174	869	7940893995855577	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj	bb6421f432febc99
+2783	3034	7939136538739953	pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	2f8e9cae9615c549
+1742	3723	7940894011453137	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.obj	4a2ebaca1da2565d
+1726	2782	7939136536315688	pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	b10a4d75e764b928
+3593	4014	7940894029834418	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.obj	7d41a9164394f558
+3036	3349	7939136542038651	pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	98457cd50447f515
+3036	3349	7939136542038651	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	98457cd50447f515
+4806	7731	7940894041975752	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.obj	591e660e9776c541
+132	814	7940893995239882	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.obj	4b89740d2e4e9720
+3960	4805	7940894033509015	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj	42cd2edfc429bbaa
+9696	10033	7939139434337498	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj	7a803b19683071a8
+160	958	7940893995515546	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.obj	eef4815bb217eeb9
+121	827	7940893995119923	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.obj	276d311a5b909c78
+1306	2058	7940894007039254	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.obj	a416c23e85ff6cc8
+146	3181	7940893995369995	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj	3d19fc145c4de72c
+216	786	7940893996055506	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj	f4935ab365088fac
+5278	9790	7940894046923684	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj	f283d1e2632c02bd
+4952	5843	7940894043431606	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj	734b06b1b3ee097c
+4939	6820	7940894043311401	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj	e5ee917b759263b5
+793	1278	7940894001830987	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	219732ccee490d6f
+830	1539	7940894002201072	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.obj	78eb4a4c668638e0
+7763	9144	7940894071532011	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.obj	4da9ece11b218056
+111	1615	7940893995009900	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.obj	74e3e72f665de011
+242	1792	7940893996335781	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj	1fb82357a708c86
+4384	4938	7940894037741824	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj	1e2c5659f6fe48d0
+4665	5371	7940894040560127	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj	6bd74977f24bf513
+814	1729	7940894002040986	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.obj	b14af9d5a321fe2d
+858	2560	7940894002486694	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.obj	875e801d65062167
+870	1588	7940894002606704	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.obj	e29d844cf286a36a
+1598	3438	7940894009915768	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.obj	d377c5eb3628de4b
+2566	3356	7940894019723841	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.obj	5a961cf1cc02ac27
+4428	5899	7940894038181765	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj	fb763f9599067255
+1823	3077	7940894012148712	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.obj	6f09b578c2011d1
+3877	4905	7940894032683517	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj	cbc1e03209b8137a
+2168	3124	7940894015921510	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj	68d0a29db20c6708
+1630	3579	7940894010492922	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.obj	fb09726b7762d00b
+2043	3818	7940894014330058	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj	4b7a733726ab7829
+992	3470	7940894003822364	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj	fce3bad96ec09fd3
+3144	3846	7940894025346303	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.obj	5951a17dc24bae72
+4483	7711	7940894038737536	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.obj	56f6ea140bfe5f03
+3192	4198	7940894025821742	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj	b1423c693aaf9891
+4732	6544	7940894041220157	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj	9992f7a3d491e3e2
+3361	3959	7940894027883085	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj	624fbee300f0173c
+759	1406	7943286428545521	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.hex	60f3f156ed27e990
+3734	4496	7940894031242197	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.obj	9b38839d2f9bdee1
+1525	2928	7940896357554357	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj	4ab0bc817a959cf1
+3447	4523	7940894028478495	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.obj	5719d43a329ede67
+4230	4731	7940894036200448	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.obj	ab23b9a77f737030
+3484	4384	7940894028748763	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.obj	48963bdb719d1d32
+4531	5065	7940894039247560	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj	b4eb546819e28a5d
+3169	4482	7940894025591814	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.obj	971df3d68f74e89a
+759	1406	7943286428545521	DVI_video_test.uf2	60f3f156ed27e990
+3084	4421	7940894024866279	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.obj	a56143f4eeb78481
+3835	4952	7940894032257794	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj	a5253161f124a8be
+97	758	7943286415582063	CMakeFiles/DVI_video_test.dir/DVI_video_test.c.obj	7d1773d6e645f05e
+4906	5732	7940894042961351	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj	db07fc156e46fc55
+4496	5268	7940894038867474	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj	9a5475441d6359c4
+5467	7388	7940894049740833	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj	e5218811b939de01
+5844	7154	7940894052344393	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj	1b77031b4441312
+102	1445	7940896343325488	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj	490fbe77a7dd3001
+5900	7828	7940894052900065	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj	5f8065e7a3b4228b
+6584	8582	7940894061197301	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj	7b40faadcb23a0f2
+126	1620	7940896343561118	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj	16494b0082251a94
+7720	8728	7940894071106207	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.obj	95eb69c643453cda
+7843	8688	7940894072517470	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.obj	b07c3ebd9a21d3e2
+112	2067	7940896343425774	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj	f8539997dbf66e3f
+5801	8788	7940894052074250	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj	e677050ef2b5ea6a
+184	1986	7940896344141097	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj	e82b077391cc790c
+200	745	7940896344311097	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.obj	d977e8a8905a598f
+772	2390	7940896350148636	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.obj	5a76ec20443ae1a6
+152	1940	7940896343831105	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj	e41ac686b88633b
+139	2554	7940896343711102	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj	3a0cad25856d1355
+1972	2753	7940896362039112	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.obj	d9175d4a59e32e3d
+1777	2825	7940896361463592	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj	70d3d2e842566a39
+2068	2813	7940896362984862	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	edae12e2a838be10
+2008	2798	7940896362754956	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.obj	33a6397353bd796
+214	2346	7940896344451204	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj	fdd45f8c1089e323
+2395	3168	7940896366646856	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	38bcf2765b0b2853
+2378	3017	7940896366083405	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.obj	2ce95460f6119892
+168	3131	7940896343991078	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj	ae8a2581ea56391f
+2555	3288	7940896367862295	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.obj	840004d7fc871d35
+2453	3968	7940896366829250	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj	3cdd339f5152592d
+2813	3987	7940896370430559	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	4c39b4ce47f5eca8
+2930	4078	7940896371616689	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj	65cad6fc1759023c
+3018	4357	7940896372479567	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj	c30837188bb64889
+2784	4454	7940896370131211	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj	396481083a2670dc
+2798	4408	7940896370284699	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj	3ca4b8cc03383cae
+2826	5014	7940896370542798	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj	cccba741217d3ab2
+110	654	7939140624942065	libdvi/dvi_serialiser.pio.h	76da382cfe7e4dd8
+110	654	7939140624942065	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/libdvi/dvi_serialiser.pio.h	76da382cfe7e4dd8
+126	656	7939140624997360	libdvi/tmds_encode_1bpp.pio.h	30843e796a047c8f
+126	656	7939140624997360	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/libdvi/tmds_encode_1bpp.pio.h	30843e796a047c8f
+3975	4621	7940896382046582	CMakeFiles/DVI_video_test.dir/software/libdvi/tmds_encode.S.obj	8e639f9b0d062033
+3189	4470	7940896374240435	CMakeFiles/DVI_video_test.dir/software/libdvi/dvi_serialiser.c.obj	a59a495a0cc7cd15
+3307	4923	7940896375591640	CMakeFiles/DVI_video_test.dir/software/libdvi/dvi_timing.c.obj	16851a8c5c87d9ad
+4079	5179	7940896383092385	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_interp/interp.c.obj	80e146029ad07377
+4028	5403	7940896382722450	CMakeFiles/DVI_video_test.dir/software/libdvi/tmds_encode.c.obj	25653b0919b5a97
+3145	5331	7940896373870486	CMakeFiles/DVI_video_test.dir/software/libdvi/dvi.c.obj	1b9374aca680c185
+759	1406	7943286428545521	DVI_video_test.elf	60f3f156ed27e990
+759	1406	7943286428545521	DVI_video_test.dis	60f3f156ed27e990
+759	1406	7943286428545521	DVI_video_test.hex	60f3f156ed27e990
+759	1406	7943286428545521	DVI_video_test.bin	60f3f156ed27e990
+759	1406	7943286428545521	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.dis	60f3f156ed27e990
+759	1406	7943286428545521	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.bin	60f3f156ed27e990
+759	1406	7943286428545521	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.uf2	60f3f156ed27e990
+6826	8211	7940894062302903	CMakeFiles/DVI_video_test.dir/C_/Users/zacharie/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj	2ce1418a0c4c122e
+81	140	7941937747310992	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/blink.pio.h	1663a8dd150e6ecf
+81	140	7941937747310992	blink.pio.h	1663a8dd150e6ecf
+4459	5151	7940896386895313	CMakeFiles/DVI_video_test.dir/software/libsprite/sprite_armv6m.S.obj	57af9b3f19e0d239
+4472	5176	7940896387025244	CMakeFiles/DVI_video_test.dir/software/libsprite/tile_armv6m.S.obj	4b976e7740e0b07f
+4430	5340	7940896386735308	CMakeFiles/DVI_video_test.dir/software/libsprite/tile.c.obj	eef7f7aa9740a0f6
+4389	5577	7940896386279612	CMakeFiles/DVI_video_test.dir/software/libsprite/sprite.c.obj	9c01a13d1f4078ea
+99	750	7943287391449174	CMakeFiles/DVI_video_test.dir/DVI_video_test.c.obj	7d1773d6e645f05e
+751	1387	7943287404157768	DVI_video_test.elf	60f3f156ed27e990
+751	1387	7943287404157768	DVI_video_test.dis	60f3f156ed27e990
+751	1387	7943287404157768	DVI_video_test.hex	60f3f156ed27e990
+751	1387	7943287404157768	DVI_video_test.bin	60f3f156ed27e990
+751	1387	7943287404157768	DVI_video_test.uf2	60f3f156ed27e990
+751	1387	7943287404157768	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.dis	60f3f156ed27e990
+751	1387	7943287404157768	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.hex	60f3f156ed27e990
+751	1387	7943287404157768	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.bin	60f3f156ed27e990
+751	1387	7943287404157768	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.uf2	60f3f156ed27e990
+90	752	7943288159733449	CMakeFiles/DVI_video_test.dir/DVI_video_test.c.obj	7d1773d6e645f05e
+755	1388	7943288172575614	DVI_video_test.elf	60f3f156ed27e990
+755	1388	7943288172575614	DVI_video_test.dis	60f3f156ed27e990
+755	1388	7943288172575614	DVI_video_test.hex	60f3f156ed27e990
+755	1388	7943288172575614	DVI_video_test.bin	60f3f156ed27e990
+755	1388	7943288172575614	DVI_video_test.uf2	60f3f156ed27e990
+755	1388	7943288172575614	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.dis	60f3f156ed27e990
+755	1388	7943288172575614	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.hex	60f3f156ed27e990
+755	1388	7943288172575614	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.bin	60f3f156ed27e990
+755	1388	7943288172575614	C:/Users/zacharie/OneDrive/Documents/Code/Raspberry pi pico/DVI_video_test/build/DVI_video_test.uf2	60f3f156ed27e990
